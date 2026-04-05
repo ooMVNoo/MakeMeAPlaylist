@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: system-ui, -apple-system, sans-serif;
+  background:#0f0f0f;
+  color:white;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+main{
+  width:100%;
+  max-width:420px;
+  padding:20px;
+}
+
+.track-card{
+  background:#1a1a1a;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+  text-align:center;
+}
+
+.track-cover img{
+  width:100%;
+  display:block;
+  aspect-ratio:1/1;
+  object-fit:cover;
+}
+
+.track-info{
+  padding:20px;
+}
+
+.track-info h1{
+  font-size:1.3rem;
+  font-weight:600;
+  line-height:1.4;
+}
